@@ -1,7 +1,7 @@
 "use client";
 
 import { Session } from "next-auth";
-import Placeholder from "../../assets/Placeholder.jpg"
+import Placeholder from "../../assets/Placeholder.png"
 import Image from "next/image";
 import { signIn, signOut } from "next-auth/react";
 

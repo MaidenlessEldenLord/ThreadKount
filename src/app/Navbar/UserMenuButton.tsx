@@ -1,7 +1,7 @@
 "use client";
 
 import { Session } from "next-auth";
-import profilePicPlaceholder from "../../assets/profilePicPlaceholder.jpg"
+import Placeholder from "../../assets/Placeholder.jpg"
 import Image from "next/image";
 import { signIn, signOut } from "next-auth/react";
 
@@ -17,7 +17,7 @@ export default function UserMenuButton({session}: UserMenuButtonProps) {
             <label tabIndex={0} className="btn btn-ghost btn-circle">
             {user ? (
             <Image 
-            src={user?.image || profilePicPlaceholder }
+            src={user?.image || Placeholder }
             alt="Profile Picture" 
             width={40} 
             height={40} 

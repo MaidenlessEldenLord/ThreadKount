@@ -26,8 +26,8 @@ export default async function Navbar() {
         <div className="bg-base-100">
             <div className="navbar max-w-7xl m-auto flex-col sm:flex-row gap-2">
                 <div className="flex-1">
-                    { <Link href="/" className="btn btn-ghost text-xl normal-case">
-                        <Image src={tshirt} alt="logo" width={60} height={60}/>
+                    { <Link href="/" className="btn btn-ghost text-xl normal-case">                   
+                    <Image src={tshirt} alt="logo" width={60} height={60}/>
                         Thread Kount
                     </Link> }
                 </div>

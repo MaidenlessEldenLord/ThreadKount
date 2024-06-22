@@ -8,8 +8,4 @@ export async function GET() {
     const data = await result.json();
    
     return Response.json({ datetime: data.datetime });
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

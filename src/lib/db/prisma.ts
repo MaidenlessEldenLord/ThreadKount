@@ -16,8 +16,4 @@ const globalForPrisma = globalThis as unknown as {
     }
  })
 
-<<<<<<< HEAD
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prismaBase
-=======
-if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prismaBase
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

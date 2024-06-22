@@ -21,13 +21,11 @@
     "prisma": "^5.13.0",
     "react": "^18",
     "react-dom": "^18",
-<<<<<<< HEAD
     "sharp": "^0.33.4",
-=======
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^14.2.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

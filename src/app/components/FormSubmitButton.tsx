@@ -25,8 +25,4 @@ export default function FormSubmitButton({
             {pending && <span className="loading loading-spinner"/>}
             {children}</button>
     )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

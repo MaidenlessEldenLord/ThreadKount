@@ -35,4 +35,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+<<<<<<< HEAD
 .env
+=======
+.env
+>>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

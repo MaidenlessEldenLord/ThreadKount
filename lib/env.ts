@@ -8,8 +8,4 @@ const envSchema = zod.object({
     NEXTAUTH_SECRET: z.string().min(1),
 }); 
 
-<<<<<<< HEAD
 export const env = envSchema.parse(process.env);
-=======
-export const env = envSchema.parse(process.env);
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

@@ -1,7 +1,11 @@
 "use client";
 
 import { Session } from "next-auth";
+<<<<<<< HEAD
 import Placeholder from "../../assets/Placeholder.jpg"
+=======
+import Placeholder from "../../assets/Placeholder.png"
+>>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9
 import Image from "next/image";
 import { signIn, signOut } from "next-auth/react";
 
@@ -57,4 +61,8 @@ export default function UserMenuButton({session}: UserMenuButtonProps) {
             </ul>
         </div>
     )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

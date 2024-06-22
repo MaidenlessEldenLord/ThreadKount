@@ -27,11 +27,7 @@ export default async function Navbar() {
             <div className="navbar max-w-7xl m-auto flex-col sm:flex-row gap-2">
                 <div className="flex-1">
                     { <Link href="/" className="btn btn-ghost text-xl normal-case">
-<<<<<<< HEAD
                         <Image src={tshirt} alt="logo" width={60} height={60}/>
-=======
-                        <Image src={tshirt} alt="logo"/>
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9
                         Thread Kount
                     </Link> }
                 </div>
@@ -51,8 +47,4 @@ export default async function Navbar() {
             </div>
         </div>
     )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b766a8736ee9fa9ace61951b3ab0ae6228a7b8b9

@@ -12,16 +12,26 @@
   "dependencies": {
     "@auth/prisma-adapter": "^2.0.0",
     "@prisma/client": "^5.13.0",
+    "@types/connect-history-api-fallback": "^1.5.4",
+    "@types/eslint": "^9.6.1",
+    "@types/estree": "^1.0.5",
+    "@types/express-serve-static-core": "^4.19.5",
+    "@types/graceful-fs": "^4.1.9",
+    "@types/qs": "^6.9.15",
+    "@types/resolve": "^1.20.6",
+    "@types/semver": "^7.5.8",
+    "@types/stack-utils": "^2.0.3",
+    "@types/trusted-types": "^2.0.7",
     "daisyui": "^4.11.1",
     "eslint-config-prettier": "^9.1.0",
+    "mongodb": "^6.8.0",
     "next": "14.2.3",
     "next-auth": "^4.24.7",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
-    "prisma": "^5.13.0",
     "react": "^18",
     "react-dom": "^18",
-    "sharp": "^0.33.4",
+    "sharp": "^0.33.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {
@@ -32,6 +42,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
+    "prisma": "^5.19.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

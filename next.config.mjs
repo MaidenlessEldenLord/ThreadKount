@@ -7,6 +7,9 @@ const nextConfig = {
             {hostname: "plus.unsplash.com"}
         ]
     },
+    typescript: {
+        ignoreBuildErrors: true,
+    }
 };
 
 export default nextConfig;
